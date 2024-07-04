@@ -9,8 +9,8 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-set(CMAKE_PREFIX_PATH "C:/Qt/6.7.0/mingw_64")
-set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "C:/Qt/6.7.0/mingw_64/lib/cmake")
+#set(CMAKE_PREFIX_PATH "C:/Qt/6.7.0/mingw_64")
+#set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "C:/Qt/6.7.0/mingw_64/lib/cmake")
 
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Core Network Sql)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core Network Sql)
